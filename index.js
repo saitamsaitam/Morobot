@@ -6,6 +6,7 @@ const
   token: require('./auth.json').token,
     autorun: true
   });
+  //git test
 
 bot.on('message', (user, userID, channelID, message, evt) => {
   if(userID !=bot.id){
